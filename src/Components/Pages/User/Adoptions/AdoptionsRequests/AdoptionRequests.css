@@ -1,0 +1,83 @@
+.adpmp {
+    width: 100vw;
+    height: 100vh;
+    background: #5F6F94;
+    display: flex;
+    flex-direction: row;
+}
+
+.adoptions-card {
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adprmp {
+    width: 100vw;
+    height: 100vh;
+    background: #5F6F94;
+    display: flex;
+    flex-direction: row;
+}
+
+.adoptionsr-card {
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.animaladopr-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin: 8px;
+}
+
+.animaladopr-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.animaladopr-description{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.animaladopr-btn{
+    background: #FECD70;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.animaladopr-btn:hover{
+    transition-property: background;
+    transition-duration: 200ms;
+    background: #DDB263;
+    cursor: pointer;  
+}
